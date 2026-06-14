@@ -60,7 +60,7 @@ variable "target_server_name" {
 variable "instance_type" {
   description = "EC2 instance type for the target server"
   type        = string
-  default     = "t2.micro"
+  default     = "t3.small"
 }
 
 variable "vpc_cidr" {
